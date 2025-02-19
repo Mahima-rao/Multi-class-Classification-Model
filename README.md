@@ -68,19 +68,32 @@ pip install numpy pandas matplotlib seaborn scikit-learn imbalanced-learn xgboos
 
 ## 9. Model Evaluation
 
-### Random Forest
+### RandomForest Model Evaluation
 
-- **Accuracy**: `{random_forest_accuracy}`
-- **Confusion Matrix**:
-  ```plaintext
-  {random_forest_conf_matrix}
+**Accuracy:** 0.7500
 
-### XGBoost
+**Confusion Matrix:**
 
-- **Accuracy**: `{xgboost_accuracy}`
-- **Confusion Matrix**:
-  ```plaintext
-  {xgboost_conf_matrix}
+|     | Predicted Class 0 | Predicted Class 1 | Predicted Class 2 |
+|-----|-------------------|-------------------|-------------------|
+| Actual Class 0 | 0                 | 4                 | 0                 |
+| Actual Class 1 | 0                 | 15                | 0                 |
+| Actual Class 2 | 0                 | 3                 | 6                 |
+
+---
+
+### XGBoost Model Evaluation
+
+**Accuracy:** 0.8929
+
+**Confusion Matrix:**
+
+|     | Predicted Class 0 | Predicted Class 1 | Predicted Class 2 |
+|-----|-------------------|-------------------|-------------------|
+| Actual Class 0 | 2                 | 1                 | 1                 |
+| Actual Class 1 | 0                 | 14                | 1                 |
+| Actual Class 2 | 0                 | 0                 | 9                 |
+
 
 ## 10. Accuracy Comparison
 
