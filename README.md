@@ -32,7 +32,7 @@ You can install them using pip:
 
 ```bash
 pip install numpy pandas matplotlib seaborn scikit-learn imbalanced-learn xgboost lime
-
+```
 ## 2. Data Preprocessing
 
 - The data is loaded from CSV files: `train_features.csv`, `train_labels.csv`, and `test_features.csv`.
